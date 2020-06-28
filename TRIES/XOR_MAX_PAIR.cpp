@@ -66,7 +66,7 @@ int main(){
     for(int i=0; i<n; i++){
         cin>>arr[i];
     }
-    trieNode* head = NULL;
+    trieNode* head = new trieNode();
     for(int i=0; i,n; i++){
         insertNode(head, arr[i]);
     }
